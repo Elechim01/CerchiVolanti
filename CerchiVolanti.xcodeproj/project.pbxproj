@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C486294125E6A67C004A7824 /* CerchiVolantiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486294025E6A67C004A7824 /* CerchiVolantiApp.swift */; };
+		C486294325E6A67C004A7824 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486294225E6A67C004A7824 /* ContentView.swift */; };
+		C486294525E6A67D004A7824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C486294425E6A67D004A7824 /* Assets.xcassets */; };
+		C486294825E6A67D004A7824 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C486294725E6A67D004A7824 /* Preview Assets.xcassets */; };
+		C486295325E6A67E004A7824 /* CerchiVolantiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486295225E6A67E004A7824 /* CerchiVolantiTests.swift */; };
+		C486295E25E6A67E004A7824 /* CerchiVolantiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486295D25E6A67E004A7824 /* CerchiVolantiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C486294F25E6A67E004A7824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C486293525E6A67C004A7824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C486293C25E6A67C004A7824;
+			remoteInfo = CerchiVolanti;
+		};
+		C486295A25E6A67E004A7824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C486293525E6A67C004A7824 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C486293C25E6A67C004A7824;
+			remoteInfo = CerchiVolanti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C486293D25E6A67C004A7824 /* CerchiVolanti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CerchiVolanti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486294025E6A67C004A7824 /* CerchiVolantiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerchiVolantiApp.swift; sourceTree = "<group>"; };
+		C486294225E6A67C004A7824 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C486294425E6A67D004A7824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C486294725E6A67D004A7824 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C486294925E6A67D004A7824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486294E25E6A67E004A7824 /* CerchiVolantiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CerchiVolantiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486295225E6A67E004A7824 /* CerchiVolantiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerchiVolantiTests.swift; sourceTree = "<group>"; };
+		C486295425E6A67E004A7824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486295925E6A67E004A7824 /* CerchiVolantiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CerchiVolantiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486295D25E6A67E004A7824 /* CerchiVolantiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerchiVolantiUITests.swift; sourceTree = "<group>"; };
+		C486295F25E6A67E004A7824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C486293A25E6A67C004A7824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486294B25E6A67E004A7824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486295625E6A67E004A7824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C486293425E6A67C004A7824 = {
+			isa = PBXGroup;
+			children = (
+				C486293F25E6A67C004A7824 /* CerchiVolanti */,
+				C486295125E6A67E004A7824 /* CerchiVolantiTests */,
+				C486295C25E6A67E004A7824 /* CerchiVolantiUITests */,
+				C486293E25E6A67C004A7824 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C486293E25E6A67C004A7824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C486293D25E6A67C004A7824 /* CerchiVolanti.app */,
+				C486294E25E6A67E004A7824 /* CerchiVolantiTests.xctest */,
+				C486295925E6A67E004A7824 /* CerchiVolantiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C486293F25E6A67C004A7824 /* CerchiVolanti */ = {
+			isa = PBXGroup;
+			children = (
+				C486294025E6A67C004A7824 /* CerchiVolantiApp.swift */,
+				C486294225E6A67C004A7824 /* ContentView.swift */,
+				C486294425E6A67D004A7824 /* Assets.xcassets */,
+				C486294925E6A67D004A7824 /* Info.plist */,
+				C486294625E6A67D004A7824 /* Preview Content */,
+			);
+			path = CerchiVolanti;
+			sourceTree = "<group>";
+		};
+		C486294625E6A67D004A7824 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C486294725E6A67D004A7824 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C486295125E6A67E004A7824 /* CerchiVolantiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C486295225E6A67E004A7824 /* CerchiVolantiTests.swift */,
+				C486295425E6A67E004A7824 /* Info.plist */,
+			);
+			path = CerchiVolantiTests;
+			sourceTree = "<group>";
+		};
+		C486295C25E6A67E004A7824 /* CerchiVolantiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C486295D25E6A67E004A7824 /* CerchiVolantiUITests.swift */,
+				C486295F25E6A67E004A7824 /* Info.plist */,
+			);
+			path = CerchiVolantiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C486293C25E6A67C004A7824 /* CerchiVolanti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C486296225E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolanti" */;
+			buildPhases = (
+				C486293925E6A67C004A7824 /* Sources */,
+				C486293A25E6A67C004A7824 /* Frameworks */,
+				C486293B25E6A67C004A7824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CerchiVolanti;
+			productName = CerchiVolanti;
+			productReference = C486293D25E6A67C004A7824 /* CerchiVolanti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C486294D25E6A67E004A7824 /* CerchiVolantiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C486296525E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolantiTests" */;
+			buildPhases = (
+				C486294A25E6A67E004A7824 /* Sources */,
+				C486294B25E6A67E004A7824 /* Frameworks */,
+				C486294C25E6A67E004A7824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C486295025E6A67E004A7824 /* PBXTargetDependency */,
+			);
+			name = CerchiVolantiTests;
+			productName = CerchiVolantiTests;
+			productReference = C486294E25E6A67E004A7824 /* CerchiVolantiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C486295825E6A67E004A7824 /* CerchiVolantiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C486296825E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolantiUITests" */;
+			buildPhases = (
+				C486295525E6A67E004A7824 /* Sources */,
+				C486295625E6A67E004A7824 /* Frameworks */,
+				C486295725E6A67E004A7824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C486295B25E6A67E004A7824 /* PBXTargetDependency */,
+			);
+			name = CerchiVolantiUITests;
+			productName = CerchiVolantiUITests;
+			productReference = C486295925E6A67E004A7824 /* CerchiVolantiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C486293525E6A67C004A7824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C486293C25E6A67C004A7824 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C486294D25E6A67E004A7824 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C486293C25E6A67C004A7824;
+					};
+					C486295825E6A67E004A7824 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C486293C25E6A67C004A7824;
+					};
+				};
+			};
+			buildConfigurationList = C486293825E6A67C004A7824 /* Build configuration list for PBXProject "CerchiVolanti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C486293425E6A67C004A7824;
+			productRefGroup = C486293E25E6A67C004A7824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C486293C25E6A67C004A7824 /* CerchiVolanti */,
+				C486294D25E6A67E004A7824 /* CerchiVolantiTests */,
+				C486295825E6A67E004A7824 /* CerchiVolantiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C486293B25E6A67C004A7824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486294825E6A67D004A7824 /* Preview Assets.xcassets in Resources */,
+				C486294525E6A67D004A7824 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486294C25E6A67E004A7824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486295725E6A67E004A7824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C486293925E6A67C004A7824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486294325E6A67C004A7824 /* ContentView.swift in Sources */,
+				C486294125E6A67C004A7824 /* CerchiVolantiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486294A25E6A67E004A7824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486295325E6A67E004A7824 /* CerchiVolantiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C486295525E6A67E004A7824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486295E25E6A67E004A7824 /* CerchiVolantiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C486295025E6A67E004A7824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C486293C25E6A67C004A7824 /* CerchiVolanti */;
+			targetProxy = C486294F25E6A67E004A7824 /* PBXContainerItemProxy */;
+		};
+		C486295B25E6A67E004A7824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C486293C25E6A67C004A7824 /* CerchiVolanti */;
+			targetProxy = C486295A25E6A67E004A7824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C486296025E6A67E004A7824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C486296125E6A67E004A7824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C486296325E6A67E004A7824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CerchiVolanti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CerchiVolanti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolanti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C486296425E6A67E004A7824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CerchiVolanti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CerchiVolanti/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolanti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C486296625E6A67E004A7824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerchiVolantiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolantiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CerchiVolanti.app/CerchiVolanti";
+			};
+			name = Debug;
+		};
+		C486296725E6A67E004A7824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerchiVolantiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolantiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CerchiVolanti.app/CerchiVolanti";
+			};
+			name = Release;
+		};
+		C486296925E6A67E004A7824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerchiVolantiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolantiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CerchiVolanti;
+			};
+			name = Debug;
+		};
+		C486296A25E6A67E004A7824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CerchiVolantiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MicheleManniello.CerchiVolantiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CerchiVolanti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C486293825E6A67C004A7824 /* Build configuration list for PBXProject "CerchiVolanti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486296025E6A67E004A7824 /* Debug */,
+				C486296125E6A67E004A7824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C486296225E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolanti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486296325E6A67E004A7824 /* Debug */,
+				C486296425E6A67E004A7824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C486296525E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolantiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486296625E6A67E004A7824 /* Debug */,
+				C486296725E6A67E004A7824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C486296825E6A67E004A7824 /* Build configuration list for PBXNativeTarget "CerchiVolantiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C486296925E6A67E004A7824 /* Debug */,
+				C486296A25E6A67E004A7824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C486293525E6A67C004A7824 /* Project object */;
+}
