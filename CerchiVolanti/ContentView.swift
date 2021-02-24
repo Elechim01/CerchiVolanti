@@ -6,11 +6,26 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    @State var cliccked : Bool = true
+    var scene : SKScene{
+        let scene = GameScene()
+        scene.size = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        scene.scaleMode = .fill
+        return scene
+    }
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            SpriteView(scene: scene)
+            .frame(width: UIScreen.main.bounds.width , height: UIScreen.main.bounds.height)
+                .edgesIgnoringSafeArea(.all)
+            Text("\(cliccked ? "Premi per iniziare":"" )")
+                .foregroundColor(.white)
+        }.onTapGesture {
+            cliccked = false
+        }
     }
 }
 

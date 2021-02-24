@@ -13,6 +13,7 @@
 		C486294825E6A67D004A7824 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C486294725E6A67D004A7824 /* Preview Assets.xcassets */; };
 		C486295325E6A67E004A7824 /* CerchiVolantiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486295225E6A67E004A7824 /* CerchiVolantiTests.swift */; };
 		C486295E25E6A67E004A7824 /* CerchiVolantiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486295D25E6A67E004A7824 /* CerchiVolantiUITests.swift */; };
+		C486296F25E6A68D004A7824 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486296E25E6A68D004A7824 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C486295925E6A67E004A7824 /* CerchiVolantiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CerchiVolantiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486295D25E6A67E004A7824 /* CerchiVolantiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerchiVolantiUITests.swift; sourceTree = "<group>"; };
 		C486295F25E6A67E004A7824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486296E25E6A68D004A7824 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				C486294025E6A67C004A7824 /* CerchiVolantiApp.swift */,
 				C486294225E6A67C004A7824 /* ContentView.swift */,
+				C486296E25E6A68D004A7824 /* GameScene.swift */,
 				C486294425E6A67D004A7824 /* Assets.xcassets */,
 				C486294925E6A67D004A7824 /* Info.plist */,
 				C486294625E6A67D004A7824 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486296F25E6A68D004A7824 /* GameScene.swift in Sources */,
 				C486294325E6A67C004A7824 /* ContentView.swift in Sources */,
 				C486294125E6A67C004A7824 /* CerchiVolantiApp.swift in Sources */,
 			);
